@@ -26,6 +26,6 @@ Haproxy modes (TCP and HTTP)
 	Using mode http becomes layer 7 proxy
 
 Create Certificate
-
+```
   $ sudo certbot certonly --standalone 
   $ sudo cat path/fullchain.pem path/privkey.pem | sudo tee /etc/ssl/haproxy.pem
